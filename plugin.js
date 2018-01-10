@@ -4,10 +4,10 @@
 	//============================
 	var Pic=function(){
 		$(".pic").mouseenter(function(){
-			//$(this).css("background","#000");
+			$(this).css("background","#000");
 		});	
-		$(".pic").mouseleave()(function(){
-			//$(this).css("background","#f1f1f1");
+		$(".pic").mouseleave(function(){
+			$(this).css("background","#f1f1f1");
 		});	
 	}
 	
